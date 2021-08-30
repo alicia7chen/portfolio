@@ -5,7 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <img src="images/alertbanner.PNG" alt="alert banner">
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 <body>
+  
 <div class="w3-row-padding">
   <!-- Alert Section -->
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">UW Alert Map Project</h3>
@@ -18,11 +39,30 @@
   <p> The format of these alerts are typically "incident" at "street name" and "street name" and typically includes a warning to avoid the area. 
     For someone who is terrible with directions, like myself, I always found it difficult to figure out at a glance where exactly the area to avoid is.
   </p>
+  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Stakeholder Interviews</h3>
+  <p> To prepare for this project I interviewed members of the UWPD, UW undergraduate students and the ASUW Director of Campus Partnerships (a seat on the student senate that works with  
+    campus organizations including UWPD)
+  <h2>General Insights</h2>
+  <div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+  </p>
   <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Low Fidelity Prototyping</h3>
     <p>The University of Washington has a system called UW Alert where students can sign up for email or text notifications of warnings from the UW Police Department.
       While most known for their criminal activity alerts, UW Alert also sends warning for hazardous leaks, city curfews, and other public health information.
       For criminal incidents, they will often indicate the general area where the crime occured as well as a brief description of what happened and sometimes a description of the suspect. 
-      Here is an example of a UW Alert sent by email.
+      Here is an example of a UW Alert sent by email:
     </p>
   <img src="images/uwalertproto.jpg" alt="UW alert low fidelity prototype">
   </div>

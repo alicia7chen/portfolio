@@ -1,35 +1,22 @@
 <!DOCTYPE html>
 <html>
 <title>Alert</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  
-  <style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 500px; 
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+    
+    </style>
+  </head>
 <body>
   
-<div class="w3-row-padding">
+<div>
   <!-- Alert Section -->
-    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">UW Alert Map Project</h2>
+    <h2>UW Alert Map Project</h2>
     <p>The University of Washington has a system called UW Alert where students can sign up for email or text notifications of warnings from the UW Police Department.
       While most known for their criminal activity alerts, UW Alert also sends warning for hazardous leaks, city curfews, and other public health information.
       For criminal incidents, they will often indicate the general area where the crime occured as well as a brief description of what happened and sometimes a description of the suspect. 
@@ -39,12 +26,12 @@
   <p> The format of these alerts are typically "incident" at "street name" and "street name" and typically includes a warning to avoid the area. 
     For someone who is terrible with directions, like myself, I always found it difficult to figure out at a glance where exactly the area to avoid is.
   </p>
-  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Stakeholder Interviews</h3>
+  <h3>Stakeholder Interviews</h3>
   <p> To prepare for this project I interviewed members of the UWPD, UW undergraduate students and the ASUW Director of Campus Partnerships (a seat on the student senate that works with  
     campus organizations including UWPD)
   <h4>General Insights</h4>
   <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column">
     <h4>UWPD</h4>
     <ul style="list-style-type:disc;">
   <li>Priority of UWPD is student safety</li>
@@ -54,14 +41,14 @@
   <li>UWPD encourages students to use UW Alert as a way to stay aware of potential dangers and to keep themselves safe</li>
 </ul>  
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column">
     <h4>ASUW Senate</h4>
     <li>Seattle doesn't have the cleanest reputation in terms of crime & homeless leading to uneasiness in new UW students and their families</li>
     <li>ASUW has been in talks with UWPD to extend jurisdiction beyond campus into northern parts of the Ave commonly frequented by students</li>
     <li>UW Alert is one of many tools developed to help increase the safety of students on campus. With nationwide tensions and growing anti-police sentiment
       ASUW is looking towards a variety of other solutions to crime prevention that are community-centered</li>
     </div>
-  <div class="column" style="background-color:#ccc;">
+  <div class="column">
     <h4>UW Students</h4>
     <li>Generally most students feel safe within campus boundaries, but start feeling more unsafe towards the outskirts of campus & towards the Ave</li>
     <li>UW Alert is a useful tool for vigilant students, and is used as a reference when there is commotion around campus</li>
@@ -71,10 +58,10 @@
   </div>
 </div>
   </p>
-  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Low Fidelity Prototyping</h3>
+  <h3>Low Fidelity Prototyping</h3>
   <img src="images/uwalertproto.jpg" alt="UW alert low fidelity prototype" width = 1000px height = 800px>
   
-  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Feedback and Lessons Learned</h3>
+  <h3>Feedback and Lessons Learned</h3>
   <p>Initially there were a lot of features I wanted to put in, sometimes I go into a project with just my own thoughts and ideas on what I can put in
   without wanting to first check current literature and best practices. After reviews and reiterations with different stakeholders, I learned 
   about reducing cognitive load, the power of phrasing, Gestalt principles about grouping. For example, the UWPD always defers to 911 for emergencies
@@ -82,7 +69,7 @@
   However it was mentioned that red can heighten senses of agitation and stress which may lead to more impulsive decision making. In reviews, stakeholders
   also mentioned that when phrasing it like "call 911" first, they may not bother reading the rest of the header so it is better to note that for emergencies
   it is best to call 911. As a result of multiple iterations we have the final interactive prototype demo below:</p>
-  <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Interactive Prototype Demo</h3>
+  <h3>Interactive Prototype Demo</h3>
   <video width="420" height="340" controls>
   <source src="images/alertvid.mp4" type="video/mp4">
 </video>
